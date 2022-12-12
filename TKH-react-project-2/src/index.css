@@ -80,3 +80,17 @@ button:focus-visible {
 .side-links{
   background-color: blue;
 }
+
+.login-form{
+  display: block;
+  margin: auto;
+  width: 800px;
+  padding: 30px;
+}
+
+.signup-form{
+  display: block;
+  margin: auto;
+  width: 800px;
+  padding: 30px;
+}
