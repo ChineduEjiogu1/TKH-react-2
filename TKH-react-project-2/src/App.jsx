@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Button, Form} from 'react-bootstrap'
+import {Button, Form, Alert} from 'react-bootstrap'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -46,7 +46,9 @@ function Login(props){
     <div>
       {
       error ? 
-        <div>That was the wrong username and/or password</div> 
+      <Alert className="incorrect-pass">
+        <div>That was the wrong username and/or password</div>
+      </Alert>
       : 
         <div>Welcome to the app</div>
       }
